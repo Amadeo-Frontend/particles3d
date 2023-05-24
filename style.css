@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#container3D canvas {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
